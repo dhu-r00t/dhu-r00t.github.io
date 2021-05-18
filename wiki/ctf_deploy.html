@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CTF 题目容器部署指南 | R00T信息安全战队</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="分享 | 求知 | 提升">
+    
+    <link rel="preload" href="/assets/css/0.styles.e4d8b86b.css" as="style"><link rel="preload" href="/assets/js/app.d2d663e9.js" as="script"><link rel="preload" href="/assets/js/2.dd8e7927.js" as="script"><link rel="preload" href="/assets/js/26.74602bb2.js" as="script"><link rel="prefetch" href="/assets/js/10.0bb53238.js"><link rel="prefetch" href="/assets/js/11.7bafff62.js"><link rel="prefetch" href="/assets/js/12.ea28e112.js"><link rel="prefetch" href="/assets/js/13.5cc0f25b.js"><link rel="prefetch" href="/assets/js/14.ea43b3df.js"><link rel="prefetch" href="/assets/js/15.9a1595eb.js"><link rel="prefetch" href="/assets/js/16.00c580e6.js"><link rel="prefetch" href="/assets/js/17.a1affb2f.js"><link rel="prefetch" href="/assets/js/18.a576a07e.js"><link rel="prefetch" href="/assets/js/19.b9faaf21.js"><link rel="prefetch" href="/assets/js/20.ccb54270.js"><link rel="prefetch" href="/assets/js/21.fb0036ad.js"><link rel="prefetch" href="/assets/js/22.b37e96c9.js"><link rel="prefetch" href="/assets/js/23.6a462f3b.js"><link rel="prefetch" href="/assets/js/24.91e68c2e.js"><link rel="prefetch" href="/assets/js/25.4e83cd58.js"><link rel="prefetch" href="/assets/js/27.5d500264.js"><link rel="prefetch" href="/assets/js/28.c562f1fa.js"><link rel="prefetch" href="/assets/js/29.16336f2d.js"><link rel="prefetch" href="/assets/js/3.996968af.js"><link rel="prefetch" href="/assets/js/30.5bf49609.js"><link rel="prefetch" href="/assets/js/31.49974d71.js"><link rel="prefetch" href="/assets/js/32.71ff1497.js"><link rel="prefetch" href="/assets/js/33.3e139edb.js"><link rel="prefetch" href="/assets/js/4.54fc2d32.js"><link rel="prefetch" href="/assets/js/5.084af6e9.js"><link rel="prefetch" href="/assets/js/6.25af3d94.js"><link rel="prefetch" href="/assets/js/7.fe5b77ff.js"><link rel="prefetch" href="/assets/js/8.a2d9ec07.js"><link rel="prefetch" href="/assets/js/9.3a3f6e48.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e4d8b86b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">R00T信息安全战队</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/finance.html" class="nav-link">
+  财务公开
+</a></div><div class="nav-item"><a href="/kb/" class="nav-link">
+  知识库
+</a></div><div class="nav-item"><a href="/writeup/" class="nav-link">
+  WriteUp
+</a></div><div class="nav-item"><a href="/wiki/" class="nav-link router-link-active">
+  原wiki
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/finance.html" class="nav-link">
+  财务公开
+</a></div><div class="nav-item"><a href="/kb/" class="nav-link">
+  知识库
+</a></div><div class="nav-item"><a href="/writeup/" class="nav-link">
+  WriteUp
+</a></div><div class="nav-item"><a href="/wiki/" class="nav-link router-link-active">
+  原wiki
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>CTF 题目容器部署指南</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/wiki/ctf_deploy.html#web类" class="sidebar-link">web类</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="ctf-题目容器部署指南"><a href="#ctf-题目容器部署指南" class="header-anchor">#</a> CTF 题目容器部署指南</h1> <h2 id="web类"><a href="#web类" class="header-anchor">#</a> web类</h2> <p><strong>所有web题均需要部署docker</strong></p> <ol><li><p>根据题目需要从<a href="https://hub.docker.com/u/ctfhub" target="_blank" rel="noopener noreferrer">ctfhub<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>，拉取不同的镜像。本文以
+ctfhub/base_web_nginx_php_74为例，Nginx+php7.4，其他的镜像的操作在文档中都有说明。</p></li> <li><p>创建题目文件夹，本文为<code>web1</code></p></li> <li><p>编写<code>docker-compose.yml</code>文件</p></li></ol> <div class="language-yml line-numbers-mode"><pre class="language-yml"><code><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">&quot;2&quot;</span>
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+  <span class="token key atrule">web</span><span class="token punctuation">:</span>
+    <span class="token key atrule">build</span><span class="token punctuation">:</span> .
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> web1
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;8080:80&quot;</span>
+    <span class="token key atrule">restart</span><span class="token punctuation">:</span> always
+    <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> FLAG=r00t<span class="token punctuation">{</span>c604a883<span class="token punctuation">-</span>8211<span class="token punctuation">-</span>46ef<span class="token punctuation">-</span>87a5<span class="token punctuation">-</span>94b3ca74f489<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>其中image为题目名称。ports为<code>外部端口:内部端口</code>，外部端口根据需要修改，内部端口统一为80。environment中的FLAG根据需要修改。</p> <ol start="4"><li>编写<code>Dockerfile</code>文件</li></ol> <div class="language-Dockerfile line-numbers-mode"><pre class="language-dockerfile"><code><span class="token keyword">FROM</span> ctfhub/base_web_nginx_php_74
+
+<span class="token keyword">COPY</span> flag.sh /flag.sh
+<span class="token keyword">COPY</span> src /var/www/html
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>其中第一行FROM的镜像名称为最开始在ctfhub中找到的名称，COPY是将当前目录的文件复制到docker镜像中，根据需要编写</p> <p>web目录统一在<code>/var/www/html</code></p> <ol start="5"><li>创建flag.sh，题目初始化脚本，根据需要修改</li></ol> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code><span class="token shebang important">#!/bin/sh</span>
+
+<span class="token builtin class-name">echo</span> <span class="token variable">$FLAG</span> <span class="token operator">&gt;</span> /flag <span class="token comment"># 将flag写入根目录</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">FLAG</span><span class="token operator">=</span>not_flag
+<span class="token assign-left variable">FLAG</span><span class="token operator">=</span>not_flag
+
+<span class="token function">rm</span> -f /flag.sh
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>有文件上传或者代码执行的题目，一定要做好权限控制，防止题目被破坏。</p> <ol start="6"><li><p>创建src文件夹，将题目web目录复制进去</p></li> <li><p>在web1目录中，<code>docker-compose up -d</code> 启动</p></li></ol> <p>使用<code>docker-compose stop</code> 暂停运行</p> <p>使用<code>docker-compose down</code> 删除容器，用于环境重建</p> <p>使用<code>docker-compose build</code> 重新运行Dockerfile</p> <p>目录结构</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>web1
+├── docker-compose.yml
+├── Dockerfile
+├── flag.sh
+└── src
+    └── index.php
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><div class="custom-block tip"><p class="custom-block-title">注意事项</p> <ol><li>尽量不要出带有爆破，猜测的题目，避免比赛选手使用爆破工具给服务器带来较大压力</li> <li>控制解题流程，避免非预期</li> <li>带有文件上传或者代码执行的题目控制好权限，避免环境被破坏，注意：默认情况下www-data账户可以向web目录写入文件，可以使用<code>chown</code>变更web目录权限，权限初始化在flag.sh中操作</li></ol></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.d2d663e9.js" defer></script><script src="/assets/js/2.dd8e7927.js" defer></script><script src="/assets/js/26.74602bb2.js" defer></script>
+  </body>
+</html>
